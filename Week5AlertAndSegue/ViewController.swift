@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "tored" {
-            print ("prepare to go to red VC ")
+            print ("prepare to go to red view controller")
           
             var redVC = segue.destination as! RedViewController
           
